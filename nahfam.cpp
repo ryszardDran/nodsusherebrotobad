@@ -1,4 +1,3 @@
-namespace netvars {
 constexpr ::std::ptrdiff_t cs_gamerules_data = 0x0;
 constexpr ::std::ptrdiff_t m_ArmorValue = 0x117CC;
 constexpr ::std::ptrdiff_t m_Collision = 0x320;
@@ -93,8 +92,6 @@ constexpr ::std::ptrdiff_t m_vecVelocity = 0x114;
 constexpr ::std::ptrdiff_t m_vecViewOffset = 0x108;
 constexpr ::std::ptrdiff_t m_viewPunchAngle = 0x3030;
 constexpr ::std::ptrdiff_t m_zoomLevel = 0x33E0;
-}
-namespace signatures {
 constexpr ::std::ptrdiff_t anim_overlays = 0x2990;
 constexpr ::std::ptrdiff_t clientstate_choked_commands = 0x4D30;
 constexpr ::std::ptrdiff_t clientstate_delta_ticks = 0x174;
@@ -153,4 +150,3 @@ constexpr ::std::ptrdiff_t m_yawClassPtr = 0xDEE938;
 constexpr ::std::ptrdiff_t model_ambient_min = 0x5A1194;
 constexpr ::std::ptrdiff_t set_abs_angles = 0x1E7A10;
 constexpr ::std::ptrdiff_t set_abs_origin = 0x1E7850;
-}
